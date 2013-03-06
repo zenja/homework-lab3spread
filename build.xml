@@ -23,29 +23,30 @@
 
   <!-- Packages for full javadoc generation -->
   <property name="fullpackages" value="gmi.*"/>
+  <property name="SPREAD_HOME" value="/home/wangxing/spread"/>
 
   <!-- Set environment variables -->
   <property environment="env"/>
 
   <!-- Check if the spread library is found -->
-  <available file="${env.SPREAD_HOME}" type="dir"
-     property="env.SPREAD_HOME.found"/>
+  <available file="${SPREAD_HOME}" type="dir"
+     property="SPREAD_HOME.found"/>
   <fail message="No SPREAD_HOME environment variable.">
     <condition>
-      <isfalse value="${env.SPREAD_HOME.found}"/>
+      <isfalse value="${SPREAD_HOME.found}"/>
     </condition>
   </fail>
   <fail message="Spread Java library not found.">
     <condition>
       <resourcecount count="0">
-        <fileset dir="${env.SPREAD_HOME}/lib" includes="*.jar"/>
+        <fileset dir="${SPREAD_HOME}/lib" includes="*.jar"/>
       </resourcecount>
     </condition>
   </fail>
 
   <!-- ClassPath to compile JaSoS and its applications -->
   <path id="compile.path">
-    <fileset dir="${env.SPREAD_HOME}/lib">
+    <fileset dir="${SPREAD_HOME}/lib">
       <include name="*.jar" />
     </fileset>
   </path>
