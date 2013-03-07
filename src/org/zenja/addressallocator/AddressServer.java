@@ -1,13 +1,12 @@
 package org.zenja.addressallocator;
 
-import java.util.Vector;
-
 import org.zenja.addressallocator.exceptions.NoFreeAddressException;
 
 import gmi.MembershipListener;
 import gmi.ServerSideProxy;
 import gmi.View;
 import gmi.protocols.Anycast;
+import gmi.protocols.Multicast;
 
 public class AddressServer implements DHCP, InternalDHCP, MembershipListener {
 
@@ -77,6 +76,9 @@ public class AddressServer implements DHCP, InternalDHCP, MembershipListener {
 		manager.printAddressList();
 	}
 	
+	/*
+	 * DHCP#leaseNewAddress
+	 */
 	@Anycast public AddressPoolItem leaseNewAddress(String clientName) {
 		AddressPoolItem item = null;
 		String address = null;
@@ -90,7 +92,7 @@ public class AddressServer implements DHCP, InternalDHCP, MembershipListener {
 			
 			// notify other servers to spread the change
 			Long expireAt = item.getExpireAt();
-			internalDHCP.setLease(address, serverName, clientName, expireAt);
+			internalDHCP.reserveAddress(address, serverName, clientName, expireAt);
 			
 		} catch (NoFreeAddressException e) {
 			System.err.println("Addresses on server " + serverName + " are all occupied, please wait.");
@@ -105,10 +107,39 @@ public class AddressServer implements DHCP, InternalDHCP, MembershipListener {
 	}
 	
 	/*
-	 * InternalDHCP#setLease
+	 * DHCP#getLeaseInfo 
 	 */
 	@Override
-	public void setLease(String address, String serverName, String clientName, Long expireAt) {
+	public AddressPoolItem getLeaseInfo(String address) {
+		return manager.getItemByAddress(address);
+	}
+
+	/*
+	 * DHCP#refresh 
+	 * 
+	 * Extend lease time
+	 */
+	@Override
+	@Multicast public boolean refresh(String address, String clientName) {
+		AddressPoolItem item = manager.getItemByAddress(address);
+		if (item == null || item.isFree() || item.getClient().equals(clientName) == false) {
+			return false;
+		} else {
+			// renew lease on local state
+			manager.renewAddress(item);
+			
+			// spread lease update to other servers
+			// nothing: because this method is @Multicast
+			
+			return true;
+		}
+	}
+	
+	/*
+	 * InternalDHCP#reserveAddress
+	 */
+	@Override
+	public void reserveAddress(String address, String serverName, String clientName, Long expireAt) {
 		manager.setLease(address, serverName, clientName, expireAt);
 		System.out.println(
 				"[Internal Call: Set Lease] server: " + serverName + 

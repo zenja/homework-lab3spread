@@ -106,4 +106,10 @@ public class AddressPoolItem implements Serializable {
 			return false;
 		}
 	}
+
+	public void extendLease() {
+		if (isFree() == false) {
+			expireAt = System.currentTimeMillis() + LEASE_SECONDS * 1000;
+		}
+	}
 }

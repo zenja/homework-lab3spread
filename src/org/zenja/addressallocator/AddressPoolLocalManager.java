@@ -104,6 +104,14 @@ public class AddressPoolLocalManager {
 		System.out.println("");
 	}
 	
+	public AddressPoolItem getItemByAddress(String address) {
+		return pool.getItemByAddress(address);
+	}
+	
+	public void renewAddress(AddressPoolItem item) {
+		item.extendLease();
+	}
+	
 	
 	/*
 	 * Test Code
