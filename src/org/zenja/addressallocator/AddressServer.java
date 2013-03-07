@@ -110,7 +110,7 @@ public class AddressServer implements DHCP, InternalDHCP, MembershipListener {
 	 * DHCP#getLeaseInfo 
 	 */
 	@Override
-	public AddressPoolItem getLeaseInfo(String address) {
+	@Anycast public AddressPoolItem getLeaseInfo(String address) {
 		return manager.getItemByAddress(address);
 	}
 
