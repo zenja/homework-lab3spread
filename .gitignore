@@ -12,6 +12,3 @@
 *.swp
 *.out
 .idea
-
-# test-results
-/test-results
