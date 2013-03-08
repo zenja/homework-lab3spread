@@ -1,0 +1,539 @@
+Buildfile: /home/wangxing/Workspaces/Eclipse_Indigo_JEE_Workspace_1/lab3spread/build.xml
+
+build:
+
+interactive-uid:
+
+addressserver:
+     [java] Server 'server-B' started on wangxing-laptop/127.0.1.1
+     [java] Server 'server-B joined group 'allocator-server-group'.
+     [java] 
+     [java] 
+     [java] Memebership Change for group "allocator-server-group" with 2 members:
+     [java] 		#server-A#localhost1
+     [java] 		#server-B#localhost1
+     [java] Group ID is 2130706689 1362686613 2
+     [java] 	Due to the JOIN of #server-B#localhost1
+     [java] 
+     [java] New allocation [start-end): [10-20)
+     [java] System rearrange occured, now the address table is: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: null	server: null	expireAt: null
+     [java] 129.241.209.2	client: null	server: null	expireAt: null
+     [java] 129.241.209.3	client: null	server: null	expireAt: null
+     [java] 129.241.209.4	client: null	server: null	expireAt: null
+     [java] 129.241.209.5	client: null	server: null	expireAt: null
+     [java] 129.241.209.6	client: null	server: null	expireAt: null
+     [java] 129.241.209.7	client: null	server: null	expireAt: null
+     [java] 129.241.209.8	client: null	server: null	expireAt: null
+     [java] 129.241.209.9	client: null	server: null	expireAt: null
+     [java] 129.241.209.10	client: null	server: null	expireAt: null
+     [java] 129.241.209.11	client: null	server: null	expireAt: null
+     [java] 129.241.209.12	client: null	server: null	expireAt: null
+     [java] 129.241.209.13	client: null	server: null	expireAt: null
+     [java] 129.241.209.14	client: null	server: null	expireAt: null
+     [java] 129.241.209.15	client: null	server: null	expireAt: null
+     [java] 129.241.209.16	client: null	server: null	expireAt: null
+     [java] 129.241.209.17	client: null	server: null	expireAt: null
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] [Internal Call: Set Lease] server: server-A, client: client-A, expireAt: 1362702186620
+     [java] 
+     [java] Now the new address table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: null	server: null	expireAt: null
+     [java] 129.241.209.3	client: null	server: null	expireAt: null
+     [java] 129.241.209.4	client: null	server: null	expireAt: null
+     [java] 129.241.209.5	client: null	server: null	expireAt: null
+     [java] 129.241.209.6	client: null	server: null	expireAt: null
+     [java] 129.241.209.7	client: null	server: null	expireAt: null
+     [java] 129.241.209.8	client: null	server: null	expireAt: null
+     [java] 129.241.209.9	client: null	server: null	expireAt: null
+     [java] 129.241.209.10	client: null	server: null	expireAt: null
+     [java] 129.241.209.11	client: null	server: null	expireAt: null
+     [java] 129.241.209.12	client: null	server: null	expireAt: null
+     [java] 129.241.209.13	client: null	server: null	expireAt: null
+     [java] 129.241.209.14	client: null	server: null	expireAt: null
+     [java] 129.241.209.15	client: null	server: null	expireAt: null
+     [java] 129.241.209.16	client: null	server: null	expireAt: null
+     [java] 129.241.209.17	client: null	server: null	expireAt: null
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] [Internal Call: Set Lease] server: server-A, client: client-A, expireAt: 1362702186758
+     [java] 
+     [java] Now the new address table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: client-A	server: server-A	expireAt: 1362702186758
+     [java] 129.241.209.3	client: null	server: null	expireAt: null
+     [java] 129.241.209.4	client: null	server: null	expireAt: null
+     [java] 129.241.209.5	client: null	server: null	expireAt: null
+     [java] 129.241.209.6	client: null	server: null	expireAt: null
+     [java] 129.241.209.7	client: null	server: null	expireAt: null
+     [java] 129.241.209.8	client: null	server: null	expireAt: null
+     [java] 129.241.209.9	client: null	server: null	expireAt: null
+     [java] 129.241.209.10	client: null	server: null	expireAt: null
+     [java] 129.241.209.11	client: null	server: null	expireAt: null
+     [java] 129.241.209.12	client: null	server: null	expireAt: null
+     [java] 129.241.209.13	client: null	server: null	expireAt: null
+     [java] 129.241.209.14	client: null	server: null	expireAt: null
+     [java] 129.241.209.15	client: null	server: null	expireAt: null
+     [java] 129.241.209.16	client: null	server: null	expireAt: null
+     [java] 129.241.209.17	client: null	server: null	expireAt: null
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] [Internal Call: Set Lease] server: server-B, client: client-A, expireAt: 1362702186847
+     [java] 
+     [java] Now the new address table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: client-A	server: server-A	expireAt: 1362702186758
+     [java] 129.241.209.3	client: null	server: null	expireAt: null
+     [java] 129.241.209.4	client: null	server: null	expireAt: null
+     [java] 129.241.209.5	client: null	server: null	expireAt: null
+     [java] 129.241.209.6	client: null	server: null	expireAt: null
+     [java] 129.241.209.7	client: null	server: null	expireAt: null
+     [java] 129.241.209.8	client: null	server: null	expireAt: null
+     [java] 129.241.209.9	client: null	server: null	expireAt: null
+     [java] 129.241.209.10	client: null	server: null	expireAt: null
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] 129.241.209.12	client: null	server: null	expireAt: null
+     [java] 129.241.209.13	client: null	server: null	expireAt: null
+     [java] 129.241.209.14	client: null	server: null	expireAt: null
+     [java] 129.241.209.15	client: null	server: null	expireAt: null
+     [java] 129.241.209.16	client: null	server: null	expireAt: null
+     [java] 129.241.209.17	client: null	server: null	expireAt: null
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] [Internal Call: Set Lease] server: server-B, client: client-A, expireAt: 1362702186946
+     [java] 
+     [java] Now the new address table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: client-A	server: server-A	expireAt: 1362702186758
+     [java] 129.241.209.3	client: null	server: null	expireAt: null
+     [java] 129.241.209.4	client: null	server: null	expireAt: null
+     [java] 129.241.209.5	client: null	server: null	expireAt: null
+     [java] 129.241.209.6	client: null	server: null	expireAt: null
+     [java] 129.241.209.7	client: null	server: null	expireAt: null
+     [java] 129.241.209.8	client: null	server: null	expireAt: null
+     [java] 129.241.209.9	client: null	server: null	expireAt: null
+     [java] 129.241.209.10	client: null	server: null	expireAt: null
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] 129.241.209.12	client: client-A	server: server-B	expireAt: 1362702186946
+     [java] 129.241.209.13	client: null	server: null	expireAt: null
+     [java] 129.241.209.14	client: null	server: null	expireAt: null
+     [java] 129.241.209.15	client: null	server: null	expireAt: null
+     [java] 129.241.209.16	client: null	server: null	expireAt: null
+     [java] 129.241.209.17	client: null	server: null	expireAt: null
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] [Internal Call: Set Lease] server: server-A, client: client-A, expireAt: 1362702187034
+     [java] 
+     [java] Now the new address table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: client-A	server: server-A	expireAt: 1362702186758
+     [java] 129.241.209.3	client: client-A	server: server-A	expireAt: 1362702187034
+     [java] 129.241.209.4	client: null	server: null	expireAt: null
+     [java] 129.241.209.5	client: null	server: null	expireAt: null
+     [java] 129.241.209.6	client: null	server: null	expireAt: null
+     [java] 129.241.209.7	client: null	server: null	expireAt: null
+     [java] 129.241.209.8	client: null	server: null	expireAt: null
+     [java] 129.241.209.9	client: null	server: null	expireAt: null
+     [java] 129.241.209.10	client: null	server: null	expireAt: null
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] 129.241.209.12	client: client-A	server: server-B	expireAt: 1362702186946
+     [java] 129.241.209.13	client: null	server: null	expireAt: null
+     [java] 129.241.209.14	client: null	server: null	expireAt: null
+     [java] 129.241.209.15	client: null	server: null	expireAt: null
+     [java] 129.241.209.16	client: null	server: null	expireAt: null
+     [java] 129.241.209.17	client: null	server: null	expireAt: null
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] [Internal Call: Set Lease] server: server-A, client: client-A, expireAt: 1362702187122
+     [java] 
+     [java] Now the new address table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: client-A	server: server-A	expireAt: 1362702186758
+     [java] 129.241.209.3	client: client-A	server: server-A	expireAt: 1362702187034
+     [java] 129.241.209.4	client: client-A	server: server-A	expireAt: 1362702187122
+     [java] 129.241.209.5	client: null	server: null	expireAt: null
+     [java] 129.241.209.6	client: null	server: null	expireAt: null
+     [java] 129.241.209.7	client: null	server: null	expireAt: null
+     [java] 129.241.209.8	client: null	server: null	expireAt: null
+     [java] 129.241.209.9	client: null	server: null	expireAt: null
+     [java] 129.241.209.10	client: null	server: null	expireAt: null
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] 129.241.209.12	client: client-A	server: server-B	expireAt: 1362702186946
+     [java] 129.241.209.13	client: null	server: null	expireAt: null
+     [java] 129.241.209.14	client: null	server: null	expireAt: null
+     [java] 129.241.209.15	client: null	server: null	expireAt: null
+     [java] 129.241.209.16	client: null	server: null	expireAt: null
+     [java] 129.241.209.17	client: null	server: null	expireAt: null
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] [Internal Call: Set Lease] server: server-B, client: client-A, expireAt: 1362702187209
+     [java] 
+     [java] Now the new address table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: client-A	server: server-A	expireAt: 1362702186758
+     [java] 129.241.209.3	client: client-A	server: server-A	expireAt: 1362702187034
+     [java] 129.241.209.4	client: client-A	server: server-A	expireAt: 1362702187122
+     [java] 129.241.209.5	client: null	server: null	expireAt: null
+     [java] 129.241.209.6	client: null	server: null	expireAt: null
+     [java] 129.241.209.7	client: null	server: null	expireAt: null
+     [java] 129.241.209.8	client: null	server: null	expireAt: null
+     [java] 129.241.209.9	client: null	server: null	expireAt: null
+     [java] 129.241.209.10	client: null	server: null	expireAt: null
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] 129.241.209.12	client: client-A	server: server-B	expireAt: 1362702186946
+     [java] 129.241.209.13	client: client-A	server: server-B	expireAt: 1362702187209
+     [java] 129.241.209.14	client: null	server: null	expireAt: null
+     [java] 129.241.209.15	client: null	server: null	expireAt: null
+     [java] 129.241.209.16	client: null	server: null	expireAt: null
+     [java] 129.241.209.17	client: null	server: null	expireAt: null
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] [Internal Call: Set Lease] server: server-A, client: client-A, expireAt: 1362702187329
+     [java] 
+     [java] Now the new address table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: client-A	server: server-A	expireAt: 1362702186758
+     [java] 129.241.209.3	client: client-A	server: server-A	expireAt: 1362702187034
+     [java] 129.241.209.4	client: client-A	server: server-A	expireAt: 1362702187122
+     [java] 129.241.209.5	client: client-A	server: server-A	expireAt: 1362702187329
+     [java] 129.241.209.6	client: null	server: null	expireAt: null
+     [java] 129.241.209.7	client: null	server: null	expireAt: null
+     [java] 129.241.209.8	client: null	server: null	expireAt: null
+     [java] 129.241.209.9	client: null	server: null	expireAt: null
+     [java] 129.241.209.10	client: null	server: null	expireAt: null
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] 129.241.209.12	client: client-A	server: server-B	expireAt: 1362702186946
+     [java] 129.241.209.13	client: client-A	server: server-B	expireAt: 1362702187209
+     [java] 129.241.209.14	client: null	server: null	expireAt: null
+     [java] 129.241.209.15	client: null	server: null	expireAt: null
+     [java] 129.241.209.16	client: null	server: null	expireAt: null
+     [java] 129.241.209.17	client: null	server: null	expireAt: null
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] [Internal Call: Set Lease] server: server-B, client: client-A, expireAt: 1362702187414
+     [java] 
+     [java] Now the new address table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: client-A	server: server-A	expireAt: 1362702186758
+     [java] 129.241.209.3	client: client-A	server: server-A	expireAt: 1362702187034
+     [java] 129.241.209.4	client: client-A	server: server-A	expireAt: 1362702187122
+     [java] 129.241.209.5	client: client-A	server: server-A	expireAt: 1362702187329
+     [java] 129.241.209.6	client: null	server: null	expireAt: null
+     [java] 129.241.209.7	client: null	server: null	expireAt: null
+     [java] 129.241.209.8	client: null	server: null	expireAt: null
+     [java] 129.241.209.9	client: null	server: null	expireAt: null
+     [java] 129.241.209.10	client: null	server: null	expireAt: null
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] 129.241.209.12	client: client-A	server: server-B	expireAt: 1362702186946
+     [java] 129.241.209.13	client: client-A	server: server-B	expireAt: 1362702187209
+     [java] 129.241.209.14	client: client-A	server: server-B	expireAt: 1362702187414
+     [java] 129.241.209.15	client: null	server: null	expireAt: null
+     [java] 129.241.209.16	client: null	server: null	expireAt: null
+     [java] 129.241.209.17	client: null	server: null	expireAt: null
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] [Internal Call: Set Lease] server: server-A, client: client-A, expireAt: 1362702187502
+     [java] 
+     [java] Now the new address table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: client-A	server: server-A	expireAt: 1362702186758
+     [java] 129.241.209.3	client: client-A	server: server-A	expireAt: 1362702187034
+     [java] 129.241.209.4	client: client-A	server: server-A	expireAt: 1362702187122
+     [java] 129.241.209.5	client: client-A	server: server-A	expireAt: 1362702187329
+     [java] 129.241.209.6	client: client-A	server: server-A	expireAt: 1362702187502
+     [java] 129.241.209.7	client: null	server: null	expireAt: null
+     [java] 129.241.209.8	client: null	server: null	expireAt: null
+     [java] 129.241.209.9	client: null	server: null	expireAt: null
+     [java] 129.241.209.10	client: null	server: null	expireAt: null
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] 129.241.209.12	client: client-A	server: server-B	expireAt: 1362702186946
+     [java] 129.241.209.13	client: client-A	server: server-B	expireAt: 1362702187209
+     [java] 129.241.209.14	client: client-A	server: server-B	expireAt: 1362702187414
+     [java] 129.241.209.15	client: null	server: null	expireAt: null
+     [java] 129.241.209.16	client: null	server: null	expireAt: null
+     [java] 129.241.209.17	client: null	server: null	expireAt: null
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] [Internal Call: Set Lease] server: server-A, client: client-A, expireAt: 1362702187626
+     [java] 
+     [java] Now the new address table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: client-A	server: server-A	expireAt: 1362702186758
+     [java] 129.241.209.3	client: client-A	server: server-A	expireAt: 1362702187034
+     [java] 129.241.209.4	client: client-A	server: server-A	expireAt: 1362702187122
+     [java] 129.241.209.5	client: client-A	server: server-A	expireAt: 1362702187329
+     [java] 129.241.209.6	client: client-A	server: server-A	expireAt: 1362702187502
+     [java] 129.241.209.7	client: client-A	server: server-A	expireAt: 1362702187626
+     [java] 129.241.209.8	client: null	server: null	expireAt: null
+     [java] 129.241.209.9	client: null	server: null	expireAt: null
+     [java] 129.241.209.10	client: null	server: null	expireAt: null
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] 129.241.209.12	client: client-A	server: server-B	expireAt: 1362702186946
+     [java] 129.241.209.13	client: client-A	server: server-B	expireAt: 1362702187209
+     [java] 129.241.209.14	client: client-A	server: server-B	expireAt: 1362702187414
+     [java] 129.241.209.15	client: null	server: null	expireAt: null
+     [java] 129.241.209.16	client: null	server: null	expireAt: null
+     [java] 129.241.209.17	client: null	server: null	expireAt: null
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] [Internal Call: Set Lease] server: server-B, client: client-A, expireAt: 1362702187762
+     [java] 
+     [java] Now the new address table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: client-A	server: server-A	expireAt: 1362702186758
+     [java] 129.241.209.3	client: client-A	server: server-A	expireAt: 1362702187034
+     [java] 129.241.209.4	client: client-A	server: server-A	expireAt: 1362702187122
+     [java] 129.241.209.5	client: client-A	server: server-A	expireAt: 1362702187329
+     [java] 129.241.209.6	client: client-A	server: server-A	expireAt: 1362702187502
+     [java] 129.241.209.7	client: client-A	server: server-A	expireAt: 1362702187626
+     [java] 129.241.209.8	client: null	server: null	expireAt: null
+     [java] 129.241.209.9	client: null	server: null	expireAt: null
+     [java] 129.241.209.10	client: null	server: null	expireAt: null
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] 129.241.209.12	client: client-A	server: server-B	expireAt: 1362702186946
+     [java] 129.241.209.13	client: client-A	server: server-B	expireAt: 1362702187209
+     [java] 129.241.209.14	client: client-A	server: server-B	expireAt: 1362702187414
+     [java] 129.241.209.15	client: client-A	server: server-B	expireAt: 1362702187762
+     [java] 129.241.209.16	client: null	server: null	expireAt: null
+     [java] 129.241.209.17	client: null	server: null	expireAt: null
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] [Internal Call: Set Lease] server: server-A, client: client-A, expireAt: 1362702187886
+     [java] 
+     [java] Now the new address table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: client-A	server: server-A	expireAt: 1362702186758
+     [java] 129.241.209.3	client: client-A	server: server-A	expireAt: 1362702187034
+     [java] 129.241.209.4	client: client-A	server: server-A	expireAt: 1362702187122
+     [java] 129.241.209.5	client: client-A	server: server-A	expireAt: 1362702187329
+     [java] 129.241.209.6	client: client-A	server: server-A	expireAt: 1362702187502
+     [java] 129.241.209.7	client: client-A	server: server-A	expireAt: 1362702187626
+     [java] 129.241.209.8	client: client-A	server: server-A	expireAt: 1362702187886
+     [java] 129.241.209.9	client: null	server: null	expireAt: null
+     [java] 129.241.209.10	client: null	server: null	expireAt: null
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] 129.241.209.12	client: client-A	server: server-B	expireAt: 1362702186946
+     [java] 129.241.209.13	client: client-A	server: server-B	expireAt: 1362702187209
+     [java] 129.241.209.14	client: client-A	server: server-B	expireAt: 1362702187414
+     [java] 129.241.209.15	client: client-A	server: server-B	expireAt: 1362702187762
+     [java] 129.241.209.16	client: null	server: null	expireAt: null
+     [java] 129.241.209.17	client: null	server: null	expireAt: null
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] [Internal Call: Set Lease] server: server-A, client: client-A, expireAt: 1362702188010
+     [java] 
+     [java] Now the new address table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: client-A	server: server-A	expireAt: 1362702186758
+     [java] 129.241.209.3	client: client-A	server: server-A	expireAt: 1362702187034
+     [java] 129.241.209.4	client: client-A	server: server-A	expireAt: 1362702187122
+     [java] 129.241.209.5	client: client-A	server: server-A	expireAt: 1362702187329
+     [java] 129.241.209.6	client: client-A	server: server-A	expireAt: 1362702187502
+     [java] 129.241.209.7	client: client-A	server: server-A	expireAt: 1362702187626
+     [java] 129.241.209.8	client: client-A	server: server-A	expireAt: 1362702187886
+     [java] 129.241.209.9	client: client-A	server: server-A	expireAt: 1362702188010
+     [java] 129.241.209.10	client: null	server: null	expireAt: null
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] 129.241.209.12	client: client-A	server: server-B	expireAt: 1362702186946
+     [java] 129.241.209.13	client: client-A	server: server-B	expireAt: 1362702187209
+     [java] 129.241.209.14	client: client-A	server: server-B	expireAt: 1362702187414
+     [java] 129.241.209.15	client: client-A	server: server-B	expireAt: 1362702187762
+     [java] 129.241.209.16	client: null	server: null	expireAt: null
+     [java] 129.241.209.17	client: null	server: null	expireAt: null
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] [Internal Call: Set Lease] server: server-A, client: client-A, expireAt: 1362702188098
+     [java] 
+     [java] Now the new address table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: client-A	server: server-A	expireAt: 1362702186758
+     [java] 129.241.209.3	client: client-A	server: server-A	expireAt: 1362702187034
+     [java] 129.241.209.4	client: client-A	server: server-A	expireAt: 1362702187122
+     [java] 129.241.209.5	client: client-A	server: server-A	expireAt: 1362702187329
+     [java] 129.241.209.6	client: client-A	server: server-A	expireAt: 1362702187502
+     [java] 129.241.209.7	client: client-A	server: server-A	expireAt: 1362702187626
+     [java] 129.241.209.8	client: client-A	server: server-A	expireAt: 1362702187886
+     [java] 129.241.209.9	client: client-A	server: server-A	expireAt: 1362702188010
+     [java] 129.241.209.10	client: client-A	server: server-A	expireAt: 1362702188098
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] 129.241.209.12	client: client-A	server: server-B	expireAt: 1362702186946
+     [java] 129.241.209.13	client: client-A	server: server-B	expireAt: 1362702187209
+     [java] 129.241.209.14	client: client-A	server: server-B	expireAt: 1362702187414
+     [java] 129.241.209.15	client: client-A	server: server-B	expireAt: 1362702187762
+     [java] 129.241.209.16	client: null	server: null	expireAt: null
+     [java] 129.241.209.17	client: null	server: null	expireAt: null
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] Expiration notification received, now cleaning...
+     [java] Expiration items cleaned! Now the table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: client-A	server: server-A	expireAt: 1362702186758
+     [java] 129.241.209.3	client: client-A	server: server-A	expireAt: 1362702187034
+     [java] 129.241.209.4	client: client-A	server: server-A	expireAt: 1362702187122
+     [java] 129.241.209.5	client: client-A	server: server-A	expireAt: 1362702187329
+     [java] 129.241.209.6	client: client-A	server: server-A	expireAt: 1362702187502
+     [java] 129.241.209.7	client: client-A	server: server-A	expireAt: 1362702187626
+     [java] 129.241.209.8	client: client-A	server: server-A	expireAt: 1362702187886
+     [java] 129.241.209.9	client: client-A	server: server-A	expireAt: 1362702188010
+     [java] 129.241.209.10	client: client-A	server: server-A	expireAt: 1362702188098
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] 129.241.209.12	client: client-A	server: server-B	expireAt: 1362702186946
+     [java] 129.241.209.13	client: client-A	server: server-B	expireAt: 1362702187209
+     [java] 129.241.209.14	client: client-A	server: server-B	expireAt: 1362702187414
+     [java] 129.241.209.15	client: client-A	server: server-B	expireAt: 1362702187762
+     [java] 129.241.209.16	client: null	server: null	expireAt: null
+     [java] 129.241.209.17	client: null	server: null	expireAt: null
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] [Internal Call: Set Lease] server: server-B, client: client-A, expireAt: 1362702188274
+     [java] 
+     [java] Now the new address table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: client-A	server: server-A	expireAt: 1362702186758
+     [java] 129.241.209.3	client: client-A	server: server-A	expireAt: 1362702187034
+     [java] 129.241.209.4	client: client-A	server: server-A	expireAt: 1362702187122
+     [java] 129.241.209.5	client: client-A	server: server-A	expireAt: 1362702187329
+     [java] 129.241.209.6	client: client-A	server: server-A	expireAt: 1362702187502
+     [java] 129.241.209.7	client: client-A	server: server-A	expireAt: 1362702187626
+     [java] 129.241.209.8	client: client-A	server: server-A	expireAt: 1362702187886
+     [java] 129.241.209.9	client: client-A	server: server-A	expireAt: 1362702188010
+     [java] 129.241.209.10	client: client-A	server: server-A	expireAt: 1362702188098
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] 129.241.209.12	client: client-A	server: server-B	expireAt: 1362702186946
+     [java] 129.241.209.13	client: client-A	server: server-B	expireAt: 1362702187209
+     [java] 129.241.209.14	client: client-A	server: server-B	expireAt: 1362702187414
+     [java] 129.241.209.15	client: client-A	server: server-B	expireAt: 1362702187762
+     [java] 129.241.209.16	client: client-A	server: server-B	expireAt: 1362702188274
+     [java] 129.241.209.17	client: null	server: null	expireAt: null
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] Expiration notification received, now cleaning...
+     [java] Expiration items cleaned! Now the table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: client-A	server: server-A	expireAt: 1362702186758
+     [java] 129.241.209.3	client: client-A	server: server-A	expireAt: 1362702187034
+     [java] 129.241.209.4	client: client-A	server: server-A	expireAt: 1362702187122
+     [java] 129.241.209.5	client: client-A	server: server-A	expireAt: 1362702187329
+     [java] 129.241.209.6	client: client-A	server: server-A	expireAt: 1362702187502
+     [java] 129.241.209.7	client: client-A	server: server-A	expireAt: 1362702187626
+     [java] 129.241.209.8	client: client-A	server: server-A	expireAt: 1362702187886
+     [java] 129.241.209.9	client: client-A	server: server-A	expireAt: 1362702188010
+     [java] 129.241.209.10	client: client-A	server: server-A	expireAt: 1362702188098
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] 129.241.209.12	client: client-A	server: server-B	expireAt: 1362702186946
+     [java] 129.241.209.13	client: client-A	server: server-B	expireAt: 1362702187209
+     [java] 129.241.209.14	client: client-A	server: server-B	expireAt: 1362702187414
+     [java] 129.241.209.15	client: client-A	server: server-B	expireAt: 1362702187762
+     [java] 129.241.209.16	client: client-A	server: server-B	expireAt: 1362702188274
+     [java] 129.241.209.17	client: null	server: null	expireAt: null
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] [Internal Call: Set Lease] server: server-B, client: client-A, expireAt: 1362702188530
+     [java] 
+     [java] Now the new address table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: client-A	server: server-A	expireAt: 1362702186758
+     [java] 129.241.209.3	client: client-A	server: server-A	expireAt: 1362702187034
+     [java] 129.241.209.4	client: client-A	server: server-A	expireAt: 1362702187122
+     [java] 129.241.209.5	client: client-A	server: server-A	expireAt: 1362702187329
+     [java] 129.241.209.6	client: client-A	server: server-A	expireAt: 1362702187502
+     [java] 129.241.209.7	client: client-A	server: server-A	expireAt: 1362702187626
+     [java] 129.241.209.8	client: client-A	server: server-A	expireAt: 1362702187886
+     [java] 129.241.209.9	client: client-A	server: server-A	expireAt: 1362702188010
+     [java] 129.241.209.10	client: client-A	server: server-A	expireAt: 1362702188098
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] 129.241.209.12	client: client-A	server: server-B	expireAt: 1362702186946
+     [java] 129.241.209.13	client: client-A	server: server-B	expireAt: 1362702187209
+     [java] 129.241.209.14	client: client-A	server: server-B	expireAt: 1362702187414
+     [java] 129.241.209.15	client: client-A	server: server-B	expireAt: 1362702187762
+     [java] 129.241.209.16	client: client-A	server: server-B	expireAt: 1362702188274
+     [java] 129.241.209.17	client: client-A	server: server-B	expireAt: 1362702188530
+     [java] 129.241.209.18	client: null	server: null	expireAt: null
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] [Internal Call: Set Lease] server: server-B, client: client-A, expireAt: 1362702188654
+     [java] 
+     [java] Now the new address table looks like: 
+     [java] Address Table:
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 129.241.209.2	client: client-A	server: server-A	expireAt: 1362702186758
+     [java] 129.241.209.3	client: client-A	server: server-A	expireAt: 1362702187034
+     [java] 129.241.209.4	client: client-A	server: server-A	expireAt: 1362702187122
+     [java] 129.241.209.5	client: client-A	server: server-A	expireAt: 1362702187329
+     [java] 129.241.209.6	client: client-A	server: server-A	expireAt: 1362702187502
+     [java] 129.241.209.7	client: client-A	server: server-A	expireAt: 1362702187626
+     [java] 129.241.209.8	client: client-A	server: server-A	expireAt: 1362702187886
+     [java] 129.241.209.9	client: client-A	server: server-A	expireAt: 1362702188010
+     [java] 129.241.209.10	client: client-A	server: server-A	expireAt: 1362702188098
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] 129.241.209.12	client: client-A	server: server-B	expireAt: 1362702186946
+     [java] 129.241.209.13	client: client-A	server: server-B	expireAt: 1362702187209
+     [java] 129.241.209.14	client: client-A	server: server-B	expireAt: 1362702187414
+     [java] 129.241.209.15	client: client-A	server: server-B	expireAt: 1362702187762
+     [java] 129.241.209.16	client: client-A	server: server-B	expireAt: 1362702188274
+     [java] 129.241.209.17	client: client-A	server: server-B	expireAt: 1362702188530
+     [java] 129.241.209.18	client: client-A	server: server-B	expireAt: 1362702188654
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 

@@ -1,0 +1,156 @@
+Buildfile: /home/wangxing/Workspaces/Eclipse_Indigo_JEE_Workspace_1/lab3spread/build.xml
+
+build:
+
+interactive-uid:
+
+interactive-num-lease:
+
+addressclient:
+     [java] [Step 1] Lease 20addresses: 
+     [java] 
+     [java] New address leased: 129.241.209.1
+     [java] Server: server-A
+     [java] ExpireAt: 1362702186620
+     [java] New address leased: 129.241.209.2
+     [java] Server: server-A
+     [java] ExpireAt: 1362702186758
+     [java] New address leased: 129.241.209.11
+     [java] Server: server-B
+     [java] ExpireAt: 1362702186847
+     [java] New address leased: 129.241.209.12
+     [java] Server: server-B
+     [java] ExpireAt: 1362702186946
+     [java] New address leased: 129.241.209.3
+     [java] Server: server-A
+     [java] ExpireAt: 1362702187034
+     [java] New address leased: 129.241.209.4
+     [java] Server: server-A
+     [java] ExpireAt: 1362702187122
+     [java] New address leased: 129.241.209.13
+     [java] Server: server-B
+     [java] ExpireAt: 1362702187209
+     [java] New address leased: 129.241.209.5
+     [java] Server: server-A
+     [java] ExpireAt: 1362702187329
+     [java] New address leased: 129.241.209.14
+     [java] Server: server-B
+     [java] ExpireAt: 1362702187414
+     [java] New address leased: 129.241.209.6
+     [java] Server: server-A
+     [java] ExpireAt: 1362702187502
+     [java] New address leased: 129.241.209.7
+     [java] Server: server-A
+     [java] ExpireAt: 1362702187626
+     [java] New address leased: 129.241.209.15
+     [java] Server: server-B
+     [java] ExpireAt: 1362702187762
+     [java] New address leased: 129.241.209.8
+     [java] Server: server-A
+     [java] ExpireAt: 1362702187886
+     [java] New address leased: 129.241.209.9
+     [java] Server: server-A
+     [java] ExpireAt: 1362702188010
+     [java] New address leased: 129.241.209.10
+     [java] Server: server-A
+     [java] ExpireAt: 1362702188098
+     [java] There are no free addresses on the server you are connecting to. Please try again later.
+     [java] New address leased: 129.241.209.16
+     [java] Server: server-B
+     [java] ExpireAt: 1362702188274
+     [java] There are no free addresses on the server you are connecting to. Please try again later.
+     [java] New address leased: 129.241.209.17
+     [java] Server: server-B
+     [java] ExpireAt: 1362702188530
+     [java] New address leased: 129.241.209.18
+     [java] Server: server-B
+     [java] ExpireAt: 1362702188654
+     [java] 
+     [java] [Step 2] Get some lease info: 
+     [java] 
+     [java] 
+     [java] Lease info for 129.241.209.1: 
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] 
+     [java] Lease info for 129.241.209.5: 
+     [java] 129.241.209.5	client: client-A	server: server-A	expireAt: 1362702187329
+     [java] 
+     [java] Lease info for 129.241.209.10: 
+     [java] 129.241.209.10	client: client-A	server: server-A	expireAt: 1362702188098
+     [java] 
+     [java] Lease info for 129.241.209.11: 
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] 
+     [java] Lease info for 129.241.209.15: 
+     [java] 129.241.209.15	client: client-A	server: server-B	expireAt: 1362702187762
+     [java] 
+     [java] Lease info for 129.241.209.20: 
+     [java] 129.241.209.20	client: null	server: null	expireAt: null
+     [java] 
+     [java] Now sleep for 3 seconds...
+     [java] 
+     [java] 
+     [java] [Step 3] Try to refresh (extend the lease of) some addresses: 
+     [java] 
+     [java] 
+     [java] Trying to extend the lease of address: 129.241.209.1
+     [java] Current lease info: 
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702186620
+     [java] Lease successfully extended, now the new lease information is: 
+     [java] 129.241.209.1	client: client-A	server: server-A	expireAt: 1362702192089
+     [java] 
+     [java] Trying to extend the lease of address: 129.241.209.3
+     [java] Current lease info: 
+     [java] 129.241.209.3	client: client-A	server: server-A	expireAt: 1362702187034
+     [java] Lease successfully extended, now the new lease information is: 
+     [java] 129.241.209.3	client: client-A	server: server-A	expireAt: 1362702192271
+     [java] 
+     [java] Trying to extend the lease of address: 129.241.209.5
+     [java] Current lease info: 
+     [java] 129.241.209.5	client: client-A	server: server-A	expireAt: 1362702187329
+     [java] Lease successfully extended, now the new lease information is: 
+     [java] 129.241.209.5	client: client-A	server: server-A	expireAt: 1362702192482
+     [java] 
+     [java] Trying to extend the lease of address: 129.241.209.7
+     [java] Current lease info: 
+     [java] 129.241.209.7	client: client-A	server: server-A	expireAt: 1362702187626
+     [java] Lease successfully extended, now the new lease information is: 
+     [java] 129.241.209.7	client: client-A	server: server-A	expireAt: 1362702192657
+     [java] 
+     [java] Trying to extend the lease of address: 129.241.209.9
+     [java] Current lease info: 
+     [java] 129.241.209.9	client: client-A	server: server-A	expireAt: 1362702188010
+     [java] Lease successfully extended, now the new lease information is: 
+     [java] 129.241.209.9	client: client-A	server: server-A	expireAt: 1362702192832
+     [java] 
+     [java] Trying to extend the lease of address: 129.241.209.11
+     [java] Current lease info: 
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702186847
+     [java] Lease successfully extended, now the new lease information is: 
+     [java] 129.241.209.11	client: client-A	server: server-B	expireAt: 1362702193005
+     [java] 
+     [java] Trying to extend the lease of address: 129.241.209.13
+     [java] Current lease info: 
+     [java] 129.241.209.13	client: client-A	server: server-B	expireAt: 1362702187209
+     [java] Lease successfully extended, now the new lease information is: 
+     [java] 129.241.209.13	client: client-A	server: server-B	expireAt: 1362702193176
+     [java] 
+     [java] Trying to extend the lease of address: 129.241.209.15
+     [java] Current lease info: 
+     [java] 129.241.209.15	client: client-A	server: server-B	expireAt: 1362702187762
+     [java] Lease successfully extended, now the new lease information is: 
+     [java] 129.241.209.15	client: client-A	server: server-B	expireAt: 1362702193348
+     [java] 
+     [java] Trying to extend the lease of address: 129.241.209.17
+     [java] Current lease info: 
+     [java] 129.241.209.17	client: client-A	server: server-B	expireAt: 1362702188530
+     [java] Lease successfully extended, now the new lease information is: 
+     [java] 129.241.209.17	client: client-A	server: server-B	expireAt: 1362702193560
+     [java] 
+     [java] Trying to extend the lease of address: 129.241.209.19
+     [java] Current lease info: 
+     [java] 129.241.209.19	client: null	server: null	expireAt: null
+     [java] Failed to extend the lease, check if the address is not in use, or if the address is leased for client-A yourself
+
+BUILD SUCCESSFUL
+Total time: 13 seconds
